@@ -3,7 +3,7 @@ import os
 from logic import mineral_detect
 
 # Инициализация бота
-bot = telebot.TeleBot("7600302172:AAEKSNFNCdVkiR518M3p0FttVYHtXPBII9c")
+bot = telebot.TeleBot("")
 
 @bot.message_handler(commands=["start"])
 def send_welcome(message):
